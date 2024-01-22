@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero, #next {
+    width: 100%;
+    height: 100vh;
+}
+
+#hero {
+    background-color: pink;
+}
+
+#next {
+    background-color: royalblue;
+}
+
+#work {
+    height: 50vh;
+    background-image: url(https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/bg-01.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d477ee #d9d9d9;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #d9d9d9;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d477ee;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+  }
+
+  #show{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4rem 0;
+    height: 50vh;
+    position: relative;
+  }
+  .img-box{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .show{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 7vw;
+    gap: 2rem;
+    z-index: 2;
+    color: #fff;
+    user-select: none;
+  }
+  .show h1{
+    font-size: 4rem;
+  }
+  .show p{
+    font-size: 1.8rem;
+  }
